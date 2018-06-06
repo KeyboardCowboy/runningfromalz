@@ -1,0 +1,8 @@
+name: rfalz
+recipe: custom
+config:
+  webroot: .
+services:
+  appserver:
+    type: php:7.1
+    via: apache
